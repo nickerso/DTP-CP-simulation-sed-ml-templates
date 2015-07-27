@@ -6,7 +6,7 @@
 		<uniformTimeCourse id="simulation1" initialTime="0"
 			outputStartTime="0" outputEndTime="6.283185307179586232"
 			numberOfPoints="$NUMBER_OF_POINTS">
-			<algorithm kisaoID="KISAO:0000030">
+			<algorithm kisaoID="$INTEGRATION_METHOD">
 				<listOfAlgorithmParameters>
 					<!-- Absolute tolerance -->
 					<algorithmParameter kisaoID="KISAO:0000211" value="1.0e-6"/>
